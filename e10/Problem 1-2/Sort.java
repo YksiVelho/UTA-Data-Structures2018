@@ -1,4 +1,5 @@
 /* Sorting Excercises */
+/* 		 WIP 		 */
 
 import java.util.Random;
 
@@ -65,7 +66,19 @@ class Sort
 
 	public static void insertSort (int[] tab)
 	{
-		/* An exercise! */
+		//for-loop chooses the element to be sorted, starting from second index
+		for(int i = 1; i < tab.length; i++){
+			int j = i-1;
+			int littleHelper = tab[i];
+			//while-loop iterates through the array, swapping elements until it finds
+			//an element that is smaller than i
+			while(j >= 0 && tab[j] > littleHelper){
+				tab[j+1] = tab[j];
+				j--;
+			}
+			//set i in place, where the previous element is smaller than i
+			tab[j+1] = littleHelper;
+		}
 	}
 
 	public static void selectSort (int[] tab)
