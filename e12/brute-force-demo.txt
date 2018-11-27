@@ -1,0 +1,33 @@
+1. iteraatio:
+T: abcbabcababcab
+P: ababc
+
+2:
+T: abcbabcababcab
+P:  ababc
+
+3:
+T: abcbabcababcab
+P:   ababc
+
+4:
+T: abcbabcababcab
+P:    ababc
+
+5:
+T: abcbabcababcab
+P:     ababc
+
+6:
+T: abcbabcababcab
+P:      ababc
+
+7:
+T: abcbabcababcab
+P:       ababc
+
+8:
+T: abcbabcababcab
+P:        ababc
+
+Palauttaa indeksin 7
